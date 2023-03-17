@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-family: fonte;
+}
+h4{
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+}
+@font-face{
+    src: url(Winkle-Regular.ttf);
+    font-family: fonte;
+}

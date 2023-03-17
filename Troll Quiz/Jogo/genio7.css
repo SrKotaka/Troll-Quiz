@@ -1,0 +1,30 @@
+h1,h2{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-family: fonte;
+}
+button{
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 250px;
+    background-color: rgb(17, 0, 255);
+    cursor: pointer;
+    opacity: 0;
+}
+h4{
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+}
+button:hover{
+    opacity: 1.0;
+}
+@font-face{
+    src: url(Winkle-Regular.ttf);
+    font-family: fonte;
+}

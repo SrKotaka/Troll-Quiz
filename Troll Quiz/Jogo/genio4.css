@@ -1,0 +1,38 @@
+h1,h2{
+    text-align: center;
+    font-size: 100px;
+    font-style: italic;
+    font-family: fonte;
+}
+button{
+    font-size: 50px;
+    border: 3px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+    border-radius: 30px;
+    width: 700px;
+    margin-left: 50px;
+    background-color: brown;
+    font-family: fonte;
+    cursor: pointer;
+}
+#mostrar{
+    display: none;
+}
+#passar_mouse:hover #mostrar{
+    display:block;
+}
+div{
+    display: inline-flex;
+}
+h4{
+    position: absolute;
+    right: 5px;
+    bottom: -20px;
+}
+#tamanho{
+    width: 300px;
+}
+@font-face{
+    src: url(Winkle-Regular.ttf);
+    font-family: fonte;
+}
